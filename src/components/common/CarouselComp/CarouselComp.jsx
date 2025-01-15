@@ -1,18 +1,12 @@
-import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
-
-import Banner1 from "../../../Assets/bannerImages/banner1.jpg";
 import Banner2 from "../../../Assets/bannerImages/banner2.jpg";
 import Banner3 from "../../../Assets/bannerImages/banner3.jpg";
 import Banner4 from "../../../Assets/bannerImages/banner4.jpg";
 import Banner5 from "../../../Assets/bannerImages/banner5.jpg";
 
 const bannerData = [
-  // {
-  //   title: "Banner 1",
-  //   image: Banner1,
-  // },
   {
     title: "Banner 2",
     image: Banner2,
